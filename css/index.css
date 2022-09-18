@@ -1,0 +1,109 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    min-width: 1115px;
+    background-color: #f2c140;
+  }
+  h1 {
+    font-family: "Italianno", cursive;
+    text-align: center;
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-family: cursive;
+  }
+  .fon {
+    width: 100%;
+  }
+  .raunded {
+    position: absolute;
+    border-radius: 100px;
+    width: 180px;
+    z-index: 10;
+    transition: 1s;
+  }
+  .raunded:hover {
+    width: 400px;
+    border-radius: 100px;
+    z-index: 100;
+  }
+  .man1 {
+    top: 105px;
+    left: 40px;
+  }
+  .man2 {
+    bottom: 200px;
+    left: 140px;
+  }
+  .man3 {
+    top: 58px;
+    left: 310px;
+  }
+  .man4 {
+    top: 35px;
+    left: 785px;
+  }
+  .man5 {
+    top: 138px;
+    right: 210px;
+  }
+  .man6 {
+    top: 1px;
+    right: 70px;
+  }
+  .man7 {
+    bottom: 200px;
+    right: 50px;
+  }
+  .top {
+    position: relative;
+  }
+  .to-right {
+    float: right;
+  }
+  .to-left {
+    float: left;
+  }
+  .big-image {
+    width: 250px;
+    border-radius: 50%;
+  
+    margin-right: 35px;
+  }
+  .middle {
+    width: 75%;
+    margin: auto;
+    line-height: 25px;
+  }
+  .up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+  }
+  * {
+      scroll-behavior: smooth;
+  }
+  .bottom{
+      background-color:#eb9f0e;
+      padding: 30px 0;
+      text-align: center;
+  }
+  .bottom p{
+  margin-top: 35px;
+  color: white;
+  }
+  .bottom a {
+  margin: auto 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  }
+  .abaut{
+      text-align: center;
+      padding: 100px;
+      font-size: 20px; 
+  }
